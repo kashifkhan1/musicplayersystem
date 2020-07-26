@@ -1,0 +1,401 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body{
+      font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex :1;
+	text-align: right;
+}
+
+nav ul{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #555;
+}
+p{
+	color: #555;
+}
+
+.title{
+	margin-right: auto;
+}
+.profile{
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin-top: -0.8rem;
+	margin-right: 1.2rem;
+}
+
+
+.container{
+	margin-width :1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px; 
+
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+
+}
+
+.col-2 img{
+	max-width: 100%;
+	padding: 50px 0;
+}
+
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+}
+
+.btn{
+	display: inline-block;
+	background:#ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #563434;
+}
+
+.header{
+	background: radial-gradient(#fff, #ffd6d6);
+}
+
+.header .row{
+	margin-top: 70px;
+}
+
+
+.part1{
+ 
+    width: 70%;
+}
+
+.categories{
+
+	margin: 70px;
+
+}
+
+.categories{
+	max-width: 1080px;
+	/*margin: auto;*/
+	padding-left: 50px;
+	padding-right: 25px;
+	padding-top: 50px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.col-3{
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 20px;
+}
+
+.col-3 img{
+	width: 100%;
+    transition: 0.5s
+   /*  filter: blur(2px);
+  -webkit-filter: blur(2px);
+*/
+}
+
+.col-3 :hover{
+	-ms- transform: scale(3 ,3);
+	box-shadow: 4px 4px 4px 4px #000;
+	z-index: 4;
+
+}
+
+ .col-3 h2{
+	text-align: center;
+	transform: translate(10%, -500%);
+	
+}
+
+.categories.row.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+/*Popular artist*/
+
+.popular-artist{
+	width: 85%;
+	margin :70px;
+	padding-right: 20px;
+	
+
+}
+
+.popular-artist .row{
+	border: 0px solid black;
+	background-color: #43ABC9;
+
+	margin-top: 100px;
+}
+
+.popular-artist h5{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 50px
+}
+
+.popular-artist .row{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.col-6{
+	flex-basis: 10%;
+	min-width: 170px;
+	margin-bottom: 20px;
+}
+
+.col-6 img{
+	width: 70%;
+
+	transition: 0.5;
+	border-radius: 50%;
+	/*display: inline-block;*/
+}
+p{
+	padding-top: 10px;
+	padding-left: 25px;
+}
+
+/*Latest English*/
+
+.categories1{
+	max-width: 1080px;
+	/*margin: auto;*/
+	padding-left: 50px;
+	padding-right: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+.col-5{
+	flex-basis: 16%;
+	min-width: 100px;
+	margin-bottom: 20px;
+
+}
+
+.col-5 img{
+	width: 100%;
+
+
+}
+
+h4{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+ p{
+     padding-right: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.heading{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.heading h1{
+	margin-right: auto;
+	color: black;
+}
+.heading ul{
+	list-style: none;
+	position: relative;
+}
+.heading a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+.heading button{
+	background-color: transparent;
+	border: none;
+}
+.heading button i{
+	padding: 0.5rem;
+}
+.heading ul li ul li{
+	background-color: lightgrey;
+	color: black;
+	padding: 2px;
+	margin-left: -2.2rem;
+}
+.heading ul li ul li a{
+	padding: 0rem 0.5rem;
+	color: black;
+}
+.heading ul ul{
+	display: none;
+	position: absolute;
+	margin-left: -2rem;
+	box-shadow: 0px 10px 10px -10px black;
+}
+.heading ul li:hover> ul{
+	display: inherit;
+}
+.heading ul li ul li:hover{
+	background-color: grey;
+}
+.heading ul ul li{
+	float: none;
+	display: list-item;
+	position: relative;
+}
+#hr_tag{
+	border-bottom: 1px solid grey;
+	padding-bottom: 0.3rem;
+}
+
+
+
+
+/*song-list*/
+.song-list{
+	width: 100%;
+	display: flex;
+	
+}
+.song-list ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+.song-list li{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #626573;
+	margin-bottom: 1rem;
+}
+.song-list span{
+	display: inline-block;
+	margin-right: 7rem;
+}
+.song-list span p{
+	font-size: larger;
+	color: #626573;
+}
+.song-list span h3{
+	font-size: x-large;
+}
+.song-list span h3,p{
+	margin: 0;
+	color: white;
+}
+.song-list img{
+	width: 5rem;
+	height: 5rem;
+	margin: 0 1rem;
+}
+
+.col-sidebar{
+	/*width: 30%;*/
+	margin-left: 1050px;
+	margin-top: -1800px
+	/*border: 2px solid black;*/
+}
+
+
+
+
+/*index1.html*/
+/*.small-container{
+	margin-left: 20%;
+	margin-right: 30%;
+	margin-top: 200px;
+}
+
+.col-21 img{
+
+     height: 0%;
+}
+
+.col-21 h2 {
+	margin-left: 27%;
+	margin-top: -200px;
+	/*margin-bottom: 250px;*/
+/*	color: black;
+}
+
+.col-2 p{
+	margin-left: 27%;
+	color: black;
+}*/*/
